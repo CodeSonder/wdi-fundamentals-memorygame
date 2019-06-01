@@ -1,0 +1,111 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+p {
+  color: white;
+  font-family: Raleway;
+}
+
+h1 {
+  color: red;
+}
+
+a {
+  color: gold;
+    border-bottom: 2px solid transparent;
+}
+
+h2 {
+  color: gold;
+}
+
+.a2 {
+  color: green;
+}
+
+.g {
+  color: green;
+}
+
+.gold1 {
+  background-color: red;
+  width: 600px;
+border: solid;
+border-color: green;
+  margin: 0 auto;
+  border-radius: 25px 25px 25px 25px;
+}
+  
+  .gold {
+    border: solid gold;
+    border-radius: 25px 25px 25px 25px;
+    margin: 0 auto;
+    width: 600px;
+    background-color: red;
+
+  }
+
+  footer {
+    text-transform: uppercase;
+    padding: 0 20px;
+    background-color: #0d2c40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+
+  }
+
+  .copyright {
+    float: left;
+  }
+
+.message {
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  font-size: 0;
+
+}
+
+.name {
+  color: #f15b31;
+  font-weight: 700;
+
+}
+
+a:hover {
+  border-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
