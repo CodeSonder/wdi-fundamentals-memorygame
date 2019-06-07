@@ -1,49 +1,50 @@
 body {
   text-align: center;
-  background-color: black;
+  background-color: #36BFD5;
 }
 
 p {
-  color: white;
-  font-family: Raleway;
+  color: black;
+  font-family: 'Charmonman', cursive;
+  font-size: 17px;
 }
 
 h1 {
-  color: red;
+  color: black;
+  font-size: 45px;
 }
 
 a {
-  color: gold;
-    border-bottom: 2px solid transparent;
+  color: #CC0B28;
+    border-bottom: 2px dotted transparent;
+    font-size: 25px;
 }
 
 h2 {
-  color: gold;
+  color: #FE941C;
+  font-family: 'Charm', cursive;
+  font-size: 30px;
 }
 
-.a2 {
-  color: green;
-}
 
-.g {
-  color: green;
-}
 
-.gold1 {
-  background-color: red;
-  width: 600px;
-border: solid;
-border-color: green;
+
+
+.Instructions {
+  background-color: #9DFDFD;
+  width: 800px;
+border-radius: 25px 25px 25px 25px;
   margin: 0 auto;
-  border-radius: 25px 25px 25px 25px;
+  border: double #FE941C;
+  
 }
   
-  .gold {
-    border: solid gold;
+  .game {
+    border: double #FE941C;
     border-radius: 25px 25px 25px 25px;
     margin: 0 auto;
-    width: 600px;
-    background-color: red;
+    width: 800px;
+    background-color: #9DFDFD;
 
   }
 
@@ -83,29 +84,19 @@ border-color: green;
 }
 
 a:hover {
-  border-color: white;
+  border-color: #36BFD5;
 }
 
+nav {
+  background-color: #FE941C;
+  padding: 20px;
+  margin: 0 auto;
+}
 
+.Instructions:hover {
+  background-color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.game:hover {
+  background-color: white;
+}
